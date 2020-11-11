@@ -53,7 +53,7 @@ public class webpage {
        Thread.sleep(1000);
        driver.findElement(By.xpath("//*[@id=\"cibil_form\"]/ul[4]/li[3]/div/label")).click();
        Thread.sleep(1000);
-       driver.findElement(By.xpath("//*[@id='submit_salesfgg']"));
+       driver.findElement(By.xpath("//*[@id='submit_sales']")).click();
        Thread.sleep(1000);
 
         
